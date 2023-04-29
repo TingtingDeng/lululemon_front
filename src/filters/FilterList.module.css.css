@@ -1,0 +1,56 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.main-container .main-column-left-wrapper {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+}
+.main-container .main-column-left-wrapper .main-column-left-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.main-container .main-column-left-wrapper .main-column-left-list .option-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+}
+.main-container .main-column-left-wrapper .main-column-left-list .option-top .option-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.main-container .main-column-left-wrapper .main-column-left-list .option-top .option-icon-collapse {
+  width: 1.5rem;
+  height: 1rem;
+}
+.main-container .main-column-left-wrapper .main-column-left-list .option-top .option-bottom .option-bottom-item {
+  margin-top: 2rem;
+}
+.main-container .main-column-medium {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.main-container .main-column-medium .main-column-medium-img {
+  width: 40rem;
+  height: 17rem;
+}
+.main-container .main-column-medium .main-column-medium-text-container {
+  margin-top: 2rem;
+  background-color: #e0e0e0;
+  padding: 0.5rem 0.5rem;
+}
+.main-container .main-column-medium .main-column-medium-text-container .medium-text {
+  font-weight: 600;
+}
+.main-container .main-column-right {
+  width: 1rem;
+  height: 2rem;
+}
+
+/*# sourceMappingURL=FilterList.module.css.css.map */
